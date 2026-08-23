@@ -1,0 +1,8 @@
+dsh-skin-xp-vaporwave
+
+This package is a standalone distribution of the "XP Vaporwave" skin
+(skin id `xp-vaporwave`) for the DeepSeek Harness Web GUI.
+
+Source of record: https://github.com/deepseek-ai/deepseek-harness
+(packages/client/ui-skin-xp-vaporwave). The skin and this distribution are
+licensed under the MIT License (see LICENSE). Copyright (c) 2026 DeepSeek.

@@ -1,0 +1,10 @@
+# DeepSeek Harness bundle layer. Installing this repository with
+# `dsh plugin --profile web add github:sinthome768/dsh-skin-xp-vaporwave`
+# registers the browser skin module (and, where the harness already bundles a
+# row with this id, replaces it) without modifying Harness source.
+#
+# The row id is the canonical id for this skin across the harness; the `name`
+# is this repo's own package, which serves the built client bundle.
+- insert:
+    - id: ui-skin-xp-vaporwave
+      name: dsh-skin-xp-vaporwave
