@@ -1,47 +1,49 @@
 {
-  "name": "dsh-skin-xp-vaporwave",
-  "version": "0.1.1",
-  "description": "XP Vaporwave skin for DeepSeek Harness Web: a Windows XP chrome layer over a vaporwave neon city scene, registered into the ui-theme skin registry.",
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./client": "./lib/client.js",
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "lib/index.js",
-    "lib/client.js",
-    "cordis.patch.yml",
-    "README.md",
-    "README.zh.md",
-    "LICENSE",
-    "NOTICE",
-    "preview.png"
-  ],
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "inject": [],
-      "platform": "web"
-    }
-  },
-  "keywords": [
-    "deepseek-harness",
-    "dsh-plugin",
-    "dsh-skin",
-    "theme",
-    "skin",
-    "vaporwave",
-    "neon",
-    "xp"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sinthome768/dsh-skin-xp-vaporwave.git"
-  },
-  "license": "MIT",
-  "private": true
+    "name":  "dsh-skin-xp-vaporwave",
+    "version":  "0.1.2",
+    "description":  "XP Vaporwave skin for DeepSeek Harness Web: a Windows XP chrome layer over a vaporwave neon city scene, registered into the ui-theme skin registry.",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./client":  "./lib/client.js",
+                    "./package.json":  "./package.json"
+                },
+    "files":  [
+                  "lib/index.js",
+                  "lib/client.js",
+                  "cordis.patch.yml",
+                  "README.md",
+                  "README.zh.md",
+                  "LICENSE",
+                  "NOTICE",
+                  "preview.png"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "inject":  [
+
+                                          ],
+                               "platform":  "web"
+                           }
+            },
+    "keywords":  [
+                     "deepseek-harness",
+                     "dsh-plugin",
+                     "dsh-skin",
+                     "theme",
+                     "skin",
+                     "vaporwave",
+                     "neon",
+                     "xp"
+                 ],
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/sinthome768/dsh-skin-xp-vaporwave.git"
+                   },
+    "license":  "MIT",
+    "private":  true
 }
